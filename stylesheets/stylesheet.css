@@ -10,6 +10,10 @@ button:hover {
   transition: all 0.3s ease-in-out;
 }
 
+.fab:hover {
+  transform: scale(1.1);
+}
+
 footer {
   left: 0;
   bottom: 0;
