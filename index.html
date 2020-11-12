@@ -35,8 +35,34 @@
     <title>~ Michael Rudolph Portfolio ~</title>
   </head>
   <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">I'm glad you stopped by!</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#aboutMe">About Me</a>
+          <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-item nav-link" href="#trailTalk">Trail Talk</a>
+          <a class="nav-item nav-link" href="#contact">Contact Me</a>
+          <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+        </div>
+      </div>
+    </nav>
     <main class="myContainer">
-      <section class="mySection">
+      <section class="mySection" id="home">
         <div class="myContent">
           <h2>Welcome</h2>
           <p>
@@ -54,7 +80,7 @@
           </p>
         </div>
       </section>
-      <section class="mySection">
+      <section class="mySection" id="aboutMe">
         <div class="myContent">
           <h2>Who Am I</h2>
           <p>
@@ -65,7 +91,63 @@
           </p>
         </div>
       </section>
-      <section class="mySection">
+      <section class="mySection" id="portfolio">
+        <div class="card-deck">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/travelSite.png"
+              alt="Travel Site Launch Page"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <button type="button" class="btn btn-light container">
+                See on GitHub
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/weatherSite.png"
+              alt="Weather Site Landing Page"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+              <button type="button" class="btn btn-light container">
+                See on GitHub
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/horiseonSite.png"
+              alt="Quiz Site Landing Page"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <button type="button" class="btn btn-light container">
+                See on GitHub
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div class="myContent">
           <h2>Portfolio</h2>
           <p>
@@ -76,7 +158,7 @@
           </p>
         </div>
       </section>
-      <section class="mySection">
+      <section class="mySection" id="trailTalk">
         <div class="d-flex justify-content-center">
           <div class="card" style="width: 18rem">
             <img src="..." class="card-img-top" alt="..." />
@@ -93,14 +175,25 @@
         <div class="myContent">
           <h2>Trail Talk</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            excepturi, labore sapiente iure, eos aliquam quo ullam fuga ipsa
-            sunt porro temporibus reiciendis corrupti, magnam quam inventore
-            deserunt obcaecati atque?
+            Growing up in New Hampshire there was no shortage of beautiful
+            mountains to explore. I have to admit that I didn't take advantage
+            of the White Mountains or the North Country as much as I should have
+            and it wasn't until I moved away from the mountains and into the
+            flat Mid-West that I realized how important hiking is to me. <br />
+            On a long solo hike through Crawford Notch I decided to combine my
+            love of hiking with my love of programming. I started to plan a
+            unique video series, a series for people who love the outdoors and
+            spending time at the keyboard.
+            <br />
+            In each video I will be chatting with myself, or my hiking partner,
+            about the great outdoors, general programming, some of my challenges
+            and how I've overcome them. <br /><br />
+            This page is still underdevelopment, please come back soon for more
+            videos.
           </p>
         </div>
       </section>
-      <section class="mySection">
+      <section class="mySection" id="contact">
         <div class="myContent">
           <h2>Talk To You Soon</h2>
           <p>
@@ -112,9 +205,8 @@
         </div>
       </section>
     </main>
-    <footer>
-      <h6>Thank you for stopping by!</h6>
-      <p>&copy; Michael Rudolph</p>
+    <footer class="sticky-bottom navbar-dark bg-dark">
+      <p nav-item>Thank you for stopping by! &copy; Michael Rudolph</p>
     </footer>
   </body>
 
