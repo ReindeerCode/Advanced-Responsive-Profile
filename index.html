@@ -44,7 +44,7 @@
   </head>
   <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#"><i class="fas fa-mug-hot"></i></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -74,11 +74,9 @@
   <body>
     <main class="myContainer">
       <section class="mySection" id="home">
-        <div class="container-fluid ">
-          </div>
           <div class="row justify-content-md-center ">
             <div class="col col-lg-2"></div>
-            <div class="col-md-auto homeContainer">
+            <div class="col-md-auto mContainer">
               <div class="card text-white bg-dark mb-3" style="max-width: 45rem">
                 <div class="card-header"><h2>Welcome...</h2></div>
                 <div class="card-body">
@@ -112,7 +110,7 @@
       <section class="mySection" id="portfolio">
         <div class="container ">
           <div class="row">
-            <div class="card-deck portContainer">
+            <div class="card-deck mContainer">
               <div class="card text-white bg-dark mb-3 ">
                 <img
                   class="card-img-top"
@@ -180,7 +178,7 @@
                 <div class="card-header"><h2>Portfolio</h2></div>
                 <div class="card-body">
                   <p class="card-text">
-                    Here are some recent projects I have worked on. There are more
+                    Here are some recent projects I've worked on. There are more
                     projects to be seen on my Github. Click the following icon to
                     check them out.
         
@@ -200,23 +198,29 @@
         </div>
       </section>
       <section class="mySection" id="trailTalk">
-        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/c_DeJkWuxwE?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="mContainer"><iframe width="560" height="315" src="https://www.youtube.com/embed/c_DeJkWuxwE?controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+          </div>
+        </div>
+
         <div class="justify-content-center d-flex p-2 bd-highlight">
           <div class=" d-flex justify-content-center">
             <div class="card text-white bg-dark mb-3" style="max-width: 45rem">
               <div class="card-header"><h2>Trail Talk</h2></div>
               <div class="card-body">
                 <p class="card-text">
-                  <p>     I've never been good at creating things with my hands. Need a birdhouse? But, programming has changed that for me. I love programming becasue it allows me to create something new.</p>
-                  <p>     Growing up in New Hampshire there was no shortage of beautiful
+                  I've never been good at creating things with my hands. Need a birdhouse? But, programming has changed that for me. I love programming becasue it allows me to create something new.
+                      Growing up in New Hampshire there was no shortage of beautiful
                     mountains to explore. On solo hike in the White Mountains I decided to
                     combine my love of hiking with my love of programming. I
                     started to plan a video series, a series for people who
-                    love spending time outdoors and at the keyboard.</p>
-                  <p>     In each video I will be chatting with myself, or my hiking
+                    love spending time outdoors and at the keyboard.
+                  In each video I will be chatting with myself, or my hiking
                     partner, about the great outdoors, general programming, challenges and how I've overcome them. <br /><br />
                     This page is still underdevelopment, please come back soon for
-                    more videos.</p>
+                    more videos.
                   
                 </p>
               </div>
@@ -225,12 +229,15 @@
         </div>
       </section>
       <section class="mySection" id="contact">
-        <div class="container">
-          <div class="row text-white bg-dark mb-3">
-              <div class="col-md-8 col-sm-12 col-xs-12 offset-md-2">
-                  <form>
-                      <div class="form-group">
-                        <h1>Talk To You Soon!</h1>
+        <div>
+          <div class="row justify-content-center ">
+            <div class="col-md-auto mContainer">
+              <div class="card text-white bg-dark mb-3" style="max-width: 45rem">
+                <div class="card-header"><h2>Let's Connect</h2></div>
+                <div class="card-body">
+                  <p class="card-text">
+                    <form>
+                      <div class="form-group" >
                         <label for="exampleFormControlInput1">Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
                       </div>
@@ -289,9 +296,82 @@
                         </div>
                       </div>
                     </form>
+                  </p>
+                  <p class="card-text">Scroll down to learn more.</p>
+                </div>
               </div>
-              </div>
+            </div>
+
+            <!-- <div class="col-md-auto mContainer">
+              <div class="row text-white bg-dark mb-3 ">
+                <div class="col-md-8 col-sm-12  offset-md-2 ">
+                    <form>
+                        <div class="form-group" >
+                          <h1>Let's Connect</h1>
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+                          </div>
+                        <div class="form-group">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Message</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type message here" rows="3"></textarea>
+                        </div>
+                        <div class="container">
+                          <div class="row">
+  
+                              <div class="col-sm-3">
+                                <a target="_blank" href="./html/contact.html">
+                                  <button
+                                    type="button"
+                                    class="btn container mt-auto "
+                                    alt="Email icon not found"
+                                  >
+                                    <i class="fas fa-3x fa-paper-plane"></i></button
+                                ></a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a target="_blank" href="https://github.com/ReindeerCode">
+                                  <button
+                                    type="button"
+                                    class="btn container mt-auto "
+                                    alt="GitHub icon not found"
+                                  >
+                                    <i class="fab fa-3x fa-github"></i></button></a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a target="_blank" href="https://www.facebook.com/michael.rudolph.3939/">
+                                  <button
+                                    type="button"
+                                    class="btn container mt-auto "
+                                    alt="Facebook icon not found"
+                                  >
+                                    <i class="fab fa-3x fa-facebook"></i></button
+                                ></a>
+                              </div>
+                              <div class="col-sm-3">
+                                <a target="_blank" href="https://www.linkedin.com/in/a-michael-rudolph/">
+                                  <button
+                                    type="button"
+                                    class="btn container mt-auto"
+                                    alt="Linkedin icon not found"
+                                  >
+                                    <i class="fab fa-3x fa-linkedin"></i></button
+                                ></a>
+                              </div>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+                </div>
+
+            </div> -->
           </div>
+        </div>
       </section>
     </main>
     <footer class="fixed-bottom navbar-dark bg-dark">

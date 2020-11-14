@@ -3,7 +3,7 @@
   padding: 0;
   font-family: "Indie Flower", cursive;
   scroll-behavior: smooth;
-  font-size: large;
+  font-size: 18px;
 }
 
 .btn:hover {
@@ -28,8 +28,8 @@ footer {
   color: white;
 }
 
-.homeContainer {
-  margin-top: 10%;
+.mContainer {
+  margin-top: 7%;
 }
 
 .myContainer {
@@ -68,10 +68,6 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   background-position: left;
-}
-
-.portContainer {
-  margin-top: 7%;
 }
 
 /* .myContainer .mySection .myContent {
