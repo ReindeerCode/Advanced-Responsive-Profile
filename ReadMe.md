@@ -1,6 +1,6 @@
 # Project: Portfolio Update
 
-  Deployed Site Link - > https://github.com/ReindeerCode/Portfolio-Website.git
+  Deployed Site Link - > https://reindeercode.github.io/Portfolio-Website/
 
 
 ## Table of Contents: 
