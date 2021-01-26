@@ -23,7 +23,7 @@ Portfolio now includes icons, parallax background, programming languages, minima
 
 
 ## Installation Instructions: 
-n/a
+N/A
 
 
 ## Test Command: 
