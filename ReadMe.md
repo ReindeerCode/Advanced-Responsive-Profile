@@ -23,11 +23,11 @@ Portfolio now includes icons, parallax background, programming languages, minima
 
 
 ## Installation Instructions: 
-N/A
+No installation needed.
 
 
 ## Test Command: 
-To test type n/a into the terminal
+To test out the site click the deployed site link at top of read me.
 
 ## Github: 
 Check out more projects on my Github at https://github.com/ReindeerCode
